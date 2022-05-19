@@ -27,7 +27,7 @@ jobs:
 
       - name: Clone Merge Repo
         run: |
-          git clone https://${GitHubName}:${{ secrets.GH_TOKEN }}@github.com/${{ secrets.REPO }} source
+          git clone https://github.com/MirroBot6996/MERGE-BOT
 
       - name: Install requirements
         run: |
